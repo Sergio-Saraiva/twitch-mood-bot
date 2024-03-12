@@ -23,7 +23,7 @@ func main() {
 		fmt.Printf("Got a message: %v\n", msg)
 		Messages = append(Messages, msg)
 
-		if len(Messages) > 30 {
+		if len(Messages) > 100 {
 			fmt.Printf("messages got bigger than 100 %d\n", len(Messages))
 			res, err := gpt.ModerateChat(Messages)
 			if err != nil {
