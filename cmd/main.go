@@ -13,7 +13,7 @@ import (
 var Messages []chat.ChatMsg
 
 func main() {
-	c, err := chat.FromChatProgram("/home/sergioneto/projects/twitch-mood-bot/bot.js")
+	c, err := chat.FromChatProgram("./bot.js")
 	if err != nil {
 		log.Fatal("Error creating chat program", err)
 	}
