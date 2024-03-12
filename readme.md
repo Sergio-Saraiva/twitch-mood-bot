@@ -14,6 +14,7 @@ Built using The Primeagen's [vim-with-me](https://github.com/ThePrimeagen/vim-wi
 - Javascript
 - Node
 - Tmi.js
+- gpt-3.5-turbo-instruct
 
 ## How to use
 
